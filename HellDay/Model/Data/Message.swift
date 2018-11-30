@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Message: Decodable, Hashable {
+    let title: String
+    let text: String
+}
+

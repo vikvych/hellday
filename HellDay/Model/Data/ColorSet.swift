@@ -6,4 +6,11 @@
 //  Copyright © 2018 Ivan Tkachenko. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct ColorSet {
+    
+    let background: UIColor
+    let tint: UIColor
+
+}

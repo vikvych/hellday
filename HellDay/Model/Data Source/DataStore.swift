@@ -7,3 +7,31 @@
 //
 
 import Foundation
+
+class DataStore {
+    
+    private var localMessages: [Message]
+    
+    init() {
+        let decoder = JSONDecoder()
+        let messages: [Message]
+        
+        do {
+            let data = try Data(contentsOf: Bundle.main.url(forResource: "phrases", withExtension: "json")!)
+            messages = try decoder.decode([Message].self, from: data)
+        } catch {
+            fatalError("Cannot launch without messages")
+        }
+        
+        localMessages = messages
+    }
+    
+}
+
+extension DataStore: MessagesLocalDataSource {
+    
+    func messages() -> [Message] {
+        return localMessages
+    }
+    
+}

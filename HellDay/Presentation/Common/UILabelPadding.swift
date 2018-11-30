@@ -8,9 +8,13 @@
 
 import UIKit
 
-class UILabelPadding: LTMorphingLabel {
+class UILabelPadding: UILabel {
     
-    var insets = UIEdgeInsets.zero
+    static let effects: Array<LTMorphingEffect> = [
+        .scale, .evaporate, .fall, .pixelate, .sparkle, .burn, .anvil
+    ]
+    
+    var insets = UIEdgeInsets(top: 12.0, left: 20.0, bottom: 16.0, right: 20.0)
     
     override func drawText(in rect: CGRect) {
         super.drawText(in: rect.inset(by: insets))
@@ -23,8 +27,6 @@ class UILabelPadding: LTMorphingLabel {
         
         return CGSize(width: width, height: heigth)
     }
-    
-    
     
 }
 

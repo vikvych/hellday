@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25D521D4AA468F25EC38A0178933501E /* Pods-HellDay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8529601C11E4DB81B9257F552FB061F0 /* Pods-HellDay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781617F9BBA91F4B49B4DB3CB0B56D72 /* Pods-HellDayTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 498154B254E5FCA01C4E0CD6ABA0C179 /* Pods-HellDayTests-dummy.m */; };
+		854DCAADE409C36F4019BB7DAC6F28EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9638D90ECA3F82249FE67404F8E6D470 /* Pods-HellDay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7D5B22C2590CCEFE505C7FB407B169 /* Pods-HellDay-dummy.m */; };
+		CA69B23D4DEE17038758D745613B8240 /* Pods-HellDayTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BD1D241724C92500287771EFF7ABF1 /* Pods-HellDayTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFF846748475521D05ECBFFA50557F0E /* Pods-HellDayUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFFE75C6912746CF4FB98071E39122B /* Pods-HellDayUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FE105345193008627DF8A458B9340C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		EDF0EB76859A61D0B1BADE34F3BB4548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FE1FB0344FBB8B642681A0F73FA1FDA7 /* Pods-HellDayUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C814D3D551BF424D70D7B4D0EFA136 /* Pods-HellDayUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FD120C089D1D54BE49BC4123AB5ED76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B445E7EE3DC738CB1E6B45ECF14FF0A;
+			remoteInfo = "Pods-HellDay";
+		};
+		CBC991561995C69FA8C29B21201110A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B445E7EE3DC738CB1E6B45ECF14FF0A;
+			remoteInfo = "Pods-HellDay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DB780659FDD14F682D1E938BEFB1CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CBD50C25D178CC06B706461501058E /* Pods_HellDayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HellDayUITests.framework; path = "Pods-HellDayUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCB435DDCA8F4ADDA0E237A3769E6E7 /* Pods_HellDayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HellDayTests.framework; path = "Pods-HellDayTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1069BF3518EA984A9B10EA03979A5C3D /* Pods-HellDayUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HellDayUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14F5572607E874E704E9EC49A41D37CA /* Pods-HellDayTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HellDayTests-frameworks.sh"; sourceTree = "<group>"; };
+		1971006EA68C4A6D6F9499F0F47CFE3F /* Pods-HellDayUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HellDayUITests.modulemap"; sourceTree = "<group>"; };
+		2D9D2F881035D0887C1D06771C1B7A8E /* Pods-HellDayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HellDayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		396ABEC675D570F82B06AC138867DAAA /* Pods-HellDayUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HellDayUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3A5A406D580AEB329AA538907E7A5138 /* Pods-HellDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HellDay.debug.xcconfig"; sourceTree = "<group>"; };
+		498154B254E5FCA01C4E0CD6ABA0C179 /* Pods-HellDayTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HellDayTests-dummy.m"; sourceTree = "<group>"; };
+		509CC294BB71CCA5F94C38E8F709DDD5 /* Pods-HellDay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HellDay.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		62F9DAFABE7AE9F719B650377DE25D13 /* Pods-HellDay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HellDay-frameworks.sh"; sourceTree = "<group>"; };
+		7267BE53F5BF65926A3344AC3250D722 /* Pods-HellDayUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HellDayUITests-resources.sh"; sourceTree = "<group>"; };
+		75C814D3D551BF424D70D7B4D0EFA136 /* Pods-HellDayUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HellDayUITests-dummy.m"; sourceTree = "<group>"; };
+		77A8278FA61D44FDD94B039C5B49D207 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81AD1C49588BB1FA3EA411F7C151D380 /* Pods-HellDayTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HellDayTests.modulemap"; sourceTree = "<group>"; };
+		841F1BC5023101045B6E8F431026CC5F /* Pods-HellDay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HellDay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8529601C11E4DB81B9257F552FB061F0 /* Pods-HellDay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HellDay-umbrella.h"; sourceTree = "<group>"; };
+		910105EB3ED66755EA9741903A7D94F1 /* Pods-HellDayTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HellDayTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E994F893D03B4971FBC54CBC6283B6 /* Pods-HellDayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HellDayTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BF8B8756818A669529C20045E1865F7 /* Pods-HellDayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HellDayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F7335EB9EAF3B008220D81B339B6BD8 /* Pods-HellDayTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HellDayTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A59DD896F42F91AF7649939B45D7A38A /* Pods-HellDayUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HellDayUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6CC1336F3C56872A8285A27F1E6AB91 /* Pods-HellDayTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HellDayTests-resources.sh"; sourceTree = "<group>"; };
+		B2BD1D241724C92500287771EFF7ABF1 /* Pods-HellDayTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HellDayTests-umbrella.h"; sourceTree = "<group>"; };
+		B70C17C74574FF231E218BC526EFD00C /* Pods-HellDayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HellDayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8D310D5353B6159D27D90004D453FD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA7D5B22C2590CCEFE505C7FB407B169 /* Pods-HellDay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HellDay-dummy.m"; sourceTree = "<group>"; };
+		C205B95F564CA5E5BCC554E2618FDA86 /* Pods-HellDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HellDay.release.xcconfig"; sourceTree = "<group>"; };
+		C7B5659D2D05FFB859C2B7AC3837A1DF /* Pods_HellDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HellDay.framework; path = "Pods-HellDay.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E800564BB90EAB5CA8CC38F157A124F6 /* Pods-HellDay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HellDay-resources.sh"; sourceTree = "<group>"; };
+		FB2101D127866F069DEEE6F95E728ABE /* Pods-HellDay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HellDay-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFFFE75C6912746CF4FB98071E39122B /* Pods-HellDayUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HellDayUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A1AC967740DBEB5B5AAAC781C62C8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FE105345193008627DF8A458B9340C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226D215247202031ED55EE04954009A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854DCAADE409C36F4019BB7DAC6F28EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7F1D171A7C97438D5024CE550E24BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF0EB76859A61D0B1BADE34F3BB4548 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12EDE34DA553FF6ADFFB82DCD20FF040 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71D17494337F19E5DCF142B1C1D0FBAA /* Pods-HellDay */,
+				F219EDB3DAC2FC1F2B3F6D67BDB85303 /* Pods-HellDayTests */,
+				658EB28058516CA3738A7C53763D98F1 /* Pods-HellDayUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		658EB28058516CA3738A7C53763D98F1 /* Pods-HellDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77A8278FA61D44FDD94B039C5B49D207 /* Info.plist */,
+				1971006EA68C4A6D6F9499F0F47CFE3F /* Pods-HellDayUITests.modulemap */,
+				1069BF3518EA984A9B10EA03979A5C3D /* Pods-HellDayUITests-acknowledgements.markdown */,
+				A59DD896F42F91AF7649939B45D7A38A /* Pods-HellDayUITests-acknowledgements.plist */,
+				75C814D3D551BF424D70D7B4D0EFA136 /* Pods-HellDayUITests-dummy.m */,
+				396ABEC675D570F82B06AC138867DAAA /* Pods-HellDayUITests-frameworks.sh */,
+				7267BE53F5BF65926A3344AC3250D722 /* Pods-HellDayUITests-resources.sh */,
+				FFFFE75C6912746CF4FB98071E39122B /* Pods-HellDayUITests-umbrella.h */,
+				2D9D2F881035D0887C1D06771C1B7A8E /* Pods-HellDayUITests.debug.xcconfig */,
+				9BF8B8756818A669529C20045E1865F7 /* Pods-HellDayUITests.release.xcconfig */,
+			);
+			name = "Pods-HellDayUITests";
+			path = "Target Support Files/Pods-HellDayUITests";
+			sourceTree = "<group>";
+		};
+		71D17494337F19E5DCF142B1C1D0FBAA /* Pods-HellDay */ = {
+			isa = PBXGroup;
+			children = (
+				B8D310D5353B6159D27D90004D453FD6 /* Info.plist */,
+				509CC294BB71CCA5F94C38E8F709DDD5 /* Pods-HellDay.modulemap */,
+				841F1BC5023101045B6E8F431026CC5F /* Pods-HellDay-acknowledgements.markdown */,
+				FB2101D127866F069DEEE6F95E728ABE /* Pods-HellDay-acknowledgements.plist */,
+				BA7D5B22C2590CCEFE505C7FB407B169 /* Pods-HellDay-dummy.m */,
+				62F9DAFABE7AE9F719B650377DE25D13 /* Pods-HellDay-frameworks.sh */,
+				E800564BB90EAB5CA8CC38F157A124F6 /* Pods-HellDay-resources.sh */,
+				8529601C11E4DB81B9257F552FB061F0 /* Pods-HellDay-umbrella.h */,
+				3A5A406D580AEB329AA538907E7A5138 /* Pods-HellDay.debug.xcconfig */,
+				C205B95F564CA5E5BCC554E2618FDA86 /* Pods-HellDay.release.xcconfig */,
+			);
+			name = "Pods-HellDay";
+			path = "Target Support Files/Pods-HellDay";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A431E317ACBDDCE4313A3442DE3E65E5 /* Products */,
+				12EDE34DA553FF6ADFFB82DCD20FF040 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A431E317ACBDDCE4313A3442DE3E65E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5659D2D05FFB859C2B7AC3837A1DF /* Pods_HellDay.framework */,
+				0BCB435DDCA8F4ADDA0E237A3769E6E7 /* Pods_HellDayTests.framework */,
+				09CBD50C25D178CC06B706461501058E /* Pods_HellDayUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F219EDB3DAC2FC1F2B3F6D67BDB85303 /* Pods-HellDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				07DB780659FDD14F682D1E938BEFB1CC /* Info.plist */,
+				81AD1C49588BB1FA3EA411F7C151D380 /* Pods-HellDayTests.modulemap */,
+				9F7335EB9EAF3B008220D81B339B6BD8 /* Pods-HellDayTests-acknowledgements.markdown */,
+				910105EB3ED66755EA9741903A7D94F1 /* Pods-HellDayTests-acknowledgements.plist */,
+				498154B254E5FCA01C4E0CD6ABA0C179 /* Pods-HellDayTests-dummy.m */,
+				14F5572607E874E704E9EC49A41D37CA /* Pods-HellDayTests-frameworks.sh */,
+				A6CC1336F3C56872A8285A27F1E6AB91 /* Pods-HellDayTests-resources.sh */,
+				B2BD1D241724C92500287771EFF7ABF1 /* Pods-HellDayTests-umbrella.h */,
+				B70C17C74574FF231E218BC526EFD00C /* Pods-HellDayTests.debug.xcconfig */,
+				94E994F893D03B4971FBC54CBC6283B6 /* Pods-HellDayTests.release.xcconfig */,
+			);
+			name = "Pods-HellDayTests";
+			path = "Target Support Files/Pods-HellDayTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		288F7293C2D06CC11CC15B22F26035C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA69B23D4DEE17038758D745613B8240 /* Pods-HellDayTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE2B0ADAF94ACAC9781D152D4D2052 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF846748475521D05ECBFFA50557F0E /* Pods-HellDayUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2E0C40D1C0B554AF415EC54702AE7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D521D4AA468F25EC38A0178933501E /* Pods-HellDay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B445E7EE3DC738CB1E6B45ECF14FF0A /* Pods-HellDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FDB55CA615CB048F134FE1D242761E /* Build configuration list for PBXNativeTarget "Pods-HellDay" */;
+			buildPhases = (
+				BB2E0C40D1C0B554AF415EC54702AE7A /* Headers */,
+				DBC42A8A7500DF7E0999630163266806 /* Sources */,
+				BE7F1D171A7C97438D5024CE550E24BB /* Frameworks */,
+				5AA409F533D9D8E8403BE92CE121A669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HellDay";
+			productName = "Pods-HellDay";
+			productReference = C7B5659D2D05FFB859C2B7AC3837A1DF /* Pods_HellDay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C8AC33B939D685C3DFF1DDCDEF65A04 /* Pods-HellDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2CBFDE6ABE35FAA7275231DECB8314 /* Build configuration list for PBXNativeTarget "Pods-HellDayUITests" */;
+			buildPhases = (
+				58FE2B0ADAF94ACAC9781D152D4D2052 /* Headers */,
+				56467021C5A503213CCB3DB4AFAA4581 /* Sources */,
+				A226D215247202031ED55EE04954009A /* Frameworks */,
+				A6A9C1FD90BCDC0241CB20082A0A5C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56B7EFD21530233D21B3DC083FC5C3A /* PBXTargetDependency */,
+			);
+			name = "Pods-HellDayUITests";
+			productName = "Pods-HellDayUITests";
+			productReference = 09CBD50C25D178CC06B706461501058E /* Pods_HellDayUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D629ECFE2FC0380B2D581A0804DE78C4 /* Pods-HellDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7102FD27B79DDDF2CD4A4A2D18E039D /* Build configuration list for PBXNativeTarget "Pods-HellDayTests" */;
+			buildPhases = (
+				288F7293C2D06CC11CC15B22F26035C0 /* Headers */,
+				A99616CF19316AD9739AD1DD65FFD578 /* Sources */,
+				9A1AC967740DBEB5B5AAAC781C62C8D6 /* Frameworks */,
+				83C87F12277CBEB3E8D083349395C61A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EAE7AF7EAB243F7099948D98354D073 /* PBXTargetDependency */,
+			);
+			name = "Pods-HellDayTests";
+			productName = "Pods-HellDayTests";
+			productReference = 0BCB435DDCA8F4ADDA0E237A3769E6E7 /* Pods_HellDayTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A431E317ACBDDCE4313A3442DE3E65E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B445E7EE3DC738CB1E6B45ECF14FF0A /* Pods-HellDay */,
+				D629ECFE2FC0380B2D581A0804DE78C4 /* Pods-HellDayTests */,
+				7C8AC33B939D685C3DFF1DDCDEF65A04 /* Pods-HellDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA409F533D9D8E8403BE92CE121A669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C87F12277CBEB3E8D083349395C61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A9C1FD90BCDC0241CB20082A0A5C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56467021C5A503213CCB3DB4AFAA4581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1FB0344FBB8B642681A0F73FA1FDA7 /* Pods-HellDayUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99616CF19316AD9739AD1DD65FFD578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781617F9BBA91F4B49B4DB3CB0B56D72 /* Pods-HellDayTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC42A8A7500DF7E0999630163266806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9638D90ECA3F82249FE67404F8E6D470 /* Pods-HellDay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EAE7AF7EAB243F7099948D98354D073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HellDay";
+			target = 0B445E7EE3DC738CB1E6B45ECF14FF0A /* Pods-HellDay */;
+			targetProxy = CBC991561995C69FA8C29B21201110A1 /* PBXContainerItemProxy */;
+		};
+		A56B7EFD21530233D21B3DC083FC5C3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HellDay";
+			target = 0B445E7EE3DC738CB1E6B45ECF14FF0A /* Pods-HellDay */;
+			targetProxy = 1FD120C089D1D54BE49BC4123AB5ED76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70C77FDB296C1ED5246246A64B44E1E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9D2F881035D0887C1D06771C1B7A8E /* Pods-HellDayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HellDayUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HellDayUITests/Pods-HellDayUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B61AC88598ADA4F7FCE6D5FEF8ADA276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70C17C74574FF231E218BC526EFD00C /* Pods-HellDayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HellDayTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HellDayTests/Pods-HellDayTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCB9365F18B7A57D59B9F35E5A3927A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5A406D580AEB329AA538907E7A5138 /* Pods-HellDay.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HellDay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HellDay/Pods-HellDay.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D02FC4C872CD559AF93FFB27C8905A0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E994F893D03B4971FBC54CBC6283B6 /* Pods-HellDayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HellDayTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HellDayTests/Pods-HellDayTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC8078A4A64A3E1E9AA5B0057AD8ADF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C205B95F564CA5E5BCC554E2618FDA86 /* Pods-HellDay.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HellDay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HellDay/Pods-HellDay.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E139ECFE2FAF362052368C90905DC683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF8B8756818A669529C20045E1865F7 /* Pods-HellDayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HellDayUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HellDayUITests/Pods-HellDayUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
+				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2CBFDE6ABE35FAA7275231DECB8314 /* Build configuration list for PBXNativeTarget "Pods-HellDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C77FDB296C1ED5246246A64B44E1E0 /* Debug */,
+				E139ECFE2FAF362052368C90905DC683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FDB55CA615CB048F134FE1D242761E /* Build configuration list for PBXNativeTarget "Pods-HellDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB9365F18B7A57D59B9F35E5A3927A5 /* Debug */,
+				DC8078A4A64A3E1E9AA5B0057AD8ADF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7102FD27B79DDDF2CD4A4A2D18E039D /* Build configuration list for PBXNativeTarget "Pods-HellDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61AC88598ADA4F7FCE6D5FEF8ADA276 /* Debug */,
+				D02FC4C872CD559AF93FFB27C8905A0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
